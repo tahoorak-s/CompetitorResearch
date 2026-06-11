@@ -1,0 +1,16 @@
+.env
+*.pyc
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+
+backend/.venv/
+backend/competitor_intel.db
+backend/reports/
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+docs/reports/
+
