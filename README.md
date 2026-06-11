@@ -2,9 +2,11 @@
 
 A production-minded MVP for monitoring competitors, collecting web and news signals, detecting changes, and generating AI-powered market intelligence reports.
 
+The frontend is themed as **Market Quest**, a retro pixel-art strategy dashboard inspired by handheld game interfaces.
+
 ## Highlights
 
-- React, TypeScript, Tailwind CSS, Recharts frontend
+- Next.js 15, TypeScript, Tailwind CSS, shadcn-style UI primitives, Framer Motion, and Lucide frontend
 - FastAPI, SQLAlchemy, PostgreSQL backend
 - JWT authentication and protected routes
 - BeautifulSoup, Requests, Newspaper3k, RSS monitoring
@@ -51,7 +53,7 @@ docker compose exec backend python -m app.seed
 
 4. Open:
 
-- Frontend: http://localhost:5173
+- Frontend: http://localhost:3000
 - API docs: http://localhost:8000/docs
 
 Demo login after seeding:
@@ -130,4 +132,3 @@ This MVP is designed to show full-stack product judgment:
 - Background automation architecture
 - AI integration that degrades gracefully without paid credentials
 - SaaS interface with dashboards, filters, dark mode, charts, and reports
-

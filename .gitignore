@@ -11,6 +11,7 @@ backend/reports/
 frontend/node_modules/
 frontend/dist/
 frontend/.vite/
+frontend/.next/
+frontend/tsconfig.tsbuildinfo
 
 docs/reports/
-

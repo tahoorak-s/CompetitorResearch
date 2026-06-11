@@ -9,5 +9,4 @@ Services:
 - `backend`: FastAPI API
 - `worker`: Celery worker for scans
 - `beat`: Celery Beat scheduler for daily/weekly/monthly scan cadence
-- `frontend`: Vite React app
-
+- `frontend`: Next.js Market Quest app
